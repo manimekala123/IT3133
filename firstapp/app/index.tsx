@@ -10,6 +10,7 @@ export default function Index() {
       }}
     >
       <Text>Hello World!</Text>
+      <Text>My First ReactNAtive cross platform app</Text>
     </View>
   );
 }
