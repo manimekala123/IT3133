@@ -10,7 +10,7 @@ export default function Index() {
       }}
     >
       <Image source = {require("../assets/images/react-logo.png")} style={styles.logo}/>
-      <Text>Hello World!</Text>
+      <Text style={styles.Text}>Hello World!</Text>
       <Text>My First ReactNAtive cross platform app</Text>
     </View>
   );
@@ -23,5 +23,9 @@ const styles = StyleSheet.create({
     borderStyle: "solid",
     borderWidth : 2,
     borderColor: "blue"
+  },
+  Text:{
+    color: "red",
+    fontSize : 30
   }
 })
